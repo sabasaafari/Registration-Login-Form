@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Register Form</title>
+</head>
+<body>
+    <div class="container">
+        <form id="register-form" class="main-form">
+            <h3>Register Form</h3>
+
+            <div class="form-items">
+                <input id="firstNameID" type="text" placeholder="First Name..." required />
+            </div>
+
+            <div class="form-items">
+                <input id="lastNameID" type="text" placeholder="Last Name..." required />
+            </div>
+
+            <div class="form-items">
+                <input type="email" id="emailID" placeholder="E-mail Address..." required />
+            </div>
+
+            <div class="form-items">
+                <input type="password" id="passwordID" placeholder="Password..." required />
+            </div>
+
+            <div class="gender">
+                <div class="gender-inputs">
+                    <input type="radio" name="gender" id="gender-male" value="male" checked /> Male
+                </div>
+                <div class="gender-inputs">
+                    <input type="radio" name="gender" id="gender-female" value="female" /> Female
+                </div>
+            </div>
+
+            <button type="submit" class="button">Submit</button>
+
+            <a href="pages/login.html" class="login-register-link">Already have an account? Click</a>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
